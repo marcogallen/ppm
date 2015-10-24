@@ -68,7 +68,7 @@ class PerrosEncontradosController extends Controller
 
         $user = \Auth::user();
         $encontrador = Encontrado::findOrFail($id)->user;
-        if($user->id != $reportador->id)
+        if($user->id != $encontrador->id)
         {
             \Mail::send('pages.email-encontrado',['user' => $user,'encontrador'=>$encontrador],function($message) use ($user){
                     $message->to($user->email,$user->name)->subject('¿Quien tiene a tu perro?');
