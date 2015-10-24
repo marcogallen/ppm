@@ -26,9 +26,9 @@
                     <li>
                         <a href="/nosotros">Sobre nosotros</a>
                     </li>
-                    <li>
+                    <!--<li>
                         <a href="/servicios">Servicios</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="/contacto">Contacto</a>
                     </li>
