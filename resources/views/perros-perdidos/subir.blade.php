@@ -88,7 +88,7 @@
                                         <div class="help-block with-errors"></div>
                                 </div>
                                 <button type="submit" class="btn btn-default">Enviar</button>
-                                <a href="/perrosperdidos">Cancelar</a>
+                                <a href="/perros-perdidos">Cancelar</a>
                         
         		{!! Form::close() !!}
                         @if($errors->any())
